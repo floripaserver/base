@@ -29,7 +29,7 @@ Next add the following service provider in `config/app.php`.
 
 ```php
 'providers' => [
-  Llama\Modules\ModuleServiceProvider::class,
+  SoftEmp\Base\BaseServiceProvider::class,
 ],
 ```
 
