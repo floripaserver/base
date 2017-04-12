@@ -1,0 +1,21 @@
+{
+    "name": "softemp/base",
+    "description": "Modulo de base",
+    "license": "Software proprietário",
+    "authors": [
+        {
+            "name": "Paulo Roberto da Silva",
+            "email": "paulo@softemp.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/database/migrations"
+        ],
+        "psr-4": {
+            "SoftEmp\\Base\\": "src"
+        }
+    }
+}
