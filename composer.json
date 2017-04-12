@@ -1,7 +1,7 @@
 {
     "name": "softemp/base",
     "description": "Modulo de base",
-    "license": "Software proprietário",
+    "license": "MIT",
     "authors": [
         {
             "name": "Paulo Roberto da Silva",
@@ -24,6 +24,7 @@
         "psr-4": {
             
         }
-    }
-    
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
